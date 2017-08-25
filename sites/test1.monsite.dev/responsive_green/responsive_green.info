@@ -1,0 +1,79 @@
+name = Responsive Green
+description = A Responsive Corporate theme.<br/> Developed by <a href="http://www.about.me/ankithinglajia">Ankit Hinglajia.</a>
+core = 7.x
+engine = phptemplate
+
+; STYLESHEETS
+;----------------------------------------------------
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/media.css
+
+; SCRIPTS
+;----------------------------------------------------
+scripts[] = js/menu.js
+scripts[] = js/flexslider-min.js
+scripts[] = js/slide.js
+
+; REGIONS
+;----------------------------------------------------
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[slideshow]      = Slideshow
+regions[top_first]      = Header First
+regions[top_second]     = Header Second
+regions[top_third]      = Header Third
+regions[content]        = Content
+regions[content_top]    = Content Top
+regions[footer_first]   = Bottom First
+regions[footer_second]  = Bottom Second
+regions[footer_third]   = Bottom Third
+regions[footer]         = Footer
+regions[top_menu_gauche]= top menu gauche
+regions[top_menu_droite]= top menu droite
+regions[menu_recherche] = menu recherche
+regions[slideshow]		= slideshow
+regions[bloc_info1]     = bloc information1
+regions[bloc_info2]     = bloc information2
+regions[bloc_info3]     = bloc information3
+regions[bloc_recherche] = bloc recherche
+regions[international1] = bloc international 1
+regions[international2] = bloc international 2
+regions[international3] = bloc international 3
+regions[inscription]    = bloc inscription
+regions[recherche_examen]=recherche examen
+regions[revision1]		= revision1
+regions[revision2]		= revision2
+
+; FEATURES
+;----------------------------------------------------
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+features[] = menu_gauche
+features[] = menu_droite
+features[] = lien_recherche
+features[] = image_info1
+features[] = image_info2
+features[] = image_info3
+
+; SETTINGS
+;----------------------------------------------------
+settings[breadcrumbs]  = 1
+settings[display]      = 1
+settings[sdisplay]     = 1
+settings[twitter]      = "https://twitter.com/ankithinglajia"
+settings[facebook]     = "http://www.facebook.com/ankithinglajia"
+settings[linkedin]     = "http://in.linkedin.com/in/ankithinglajia"
+
+; Information added by Drupal.org packaging script on 2014-05-02
+version = "7.x-1.7"
+core = "7.x"
+project = "responsive_green"
+datestamp = "1399016032"
+
